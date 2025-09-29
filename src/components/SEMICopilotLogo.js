@@ -3,8 +3,8 @@ import React from 'react';
 const SEMICopilotLogo = ({ size = 'normal', className = '' }) => {
   const dimensions = {
     small: { width: 80, height: 27 },
-    normal: { width: 120, height: 40 },
-    large: { width: 160, height: 53 }
+    normal: { width: 140, height: 47 },
+    large: { width: 180, height: 60 }
   };
 
   const { width, height } = dimensions[size] || dimensions.normal;
