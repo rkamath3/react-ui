@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply relative font-normal font-outfit bg-gray-50 text-gray-700;
+  }
+}
+
+@layer components {
+  /* Menu Item Styles */
+  .menu-item {
+    @apply relative flex items-center w-full gap-3 px-3 py-2.5 font-medium rounded-lg text-sm transition-all duration-200;
+  }
+
+  .menu-item-active {
+    @apply bg-brand-50 text-brand-500;
+  }
+
+  .menu-item-inactive {
+    @apply text-gray-700 hover:bg-gray-100 group-hover:text-gray-700;
+  }
+
+  .menu-item-icon {
+    @apply text-gray-500 group-hover:text-gray-700;
+  }
+
+  .menu-item-icon-active {
+    @apply text-brand-500;
+  }
+
+  .menu-item-icon-size {
+    @apply flex items-center justify-center w-6 h-6 flex-shrink-0;
+  }
+
+  .menu-item-icon-size svg {
+    @apply !w-5 !h-5;
+  }
+
+  /* Dashboard Card Styles */
+  .dashboard-card {
+    @apply bg-white rounded border border-gray-200 shadow-theme-sm transition-shadow duration-300 mb-4 md:mb-6;
+  }
+
+  .dashboard-card:hover {
+    @apply shadow-theme-md;
+  }
+
+  .card-header {
+    @apply px-4 md:px-5 py-3 md:py-4 border-b border-gray-200;
+  }
+
+  .card-title {
+    @apply text-base md:text-lg font-semibold text-gray-900;
+  }
+
+  .card-body {
+    @apply p-4 md:p-5;
+  }
+
+  /* Button Styles */
+  .btn-primary {
+    @apply bg-brand-500 hover:bg-brand-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 shadow-theme-sm text-sm md:text-base;
+  }
+
+  .btn-primary:disabled {
+    @apply bg-gray-200 text-gray-400 cursor-not-allowed;
+  }
+
+  /* Form Styles */
+  .form-control {
+    @apply w-full px-3 py-2 border border-gray-200 rounded-lg focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 outline-none transition-colors duration-200 text-sm md:text-base;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-gray-700 mb-2;
+  }
+
+  /* Table Styles */
+  .data-table {
+    @apply w-full border-collapse;
+  }
+
+  .data-table th {
+    @apply bg-gray-50 px-2 md:px-4 py-2 md:py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider border-b border-gray-200;
+  }
+
+  .data-table td {
+    @apply px-2 md:px-4 py-2 md:py-3 text-xs md:text-sm text-gray-900 border-b border-gray-200;
+  }
+
+  .data-table tr:hover {
+    @apply bg-gray-50;
+  }
+
+  .data-table tr.error-row {
+    @apply bg-error-50;
+  }
+
+  .data-table tr.error-row:hover {
+    @apply bg-error-100;
+  }
+
+  /* Mobile table wrapper for horizontal scrolling */
+  .table-wrapper {
+    @apply overflow-x-auto -mx-4 md:mx-0;
+  }
+
+  .table-wrapper .data-table {
+    @apply min-w-full;
+  }
+
+  /* Analysis Field */
+  .analysis-field {
+    @apply w-full p-4 bg-gray-50 border border-gray-200 rounded-lg text-sm text-gray-700 resize-y;
+  }
+
+  .analysis-field:read-only {
+    @apply bg-gray-100 text-gray-600;
+  }
+
+  /* Search Box */
+  .search-box {
+    @apply relative;
+  }
+
+  .search-box .input-group {
+    @apply flex;
+  }
+
+  .search-box .input-group-text {
+    @apply flex items-center px-3 py-2 bg-gray-100 border border-r-0 border-gray-200 rounded-l-lg text-gray-500;
+  }
+
+  .search-box .form-control {
+    @apply rounded-l-none border-l-0;
+  }
+
+  /* Stat Card Styles */
+  .stat-card {
+    @apply p-4 bg-gray-50 border border-gray-200 rounded-lg;
+  }
+
+  /* Activity Styles */
+  .activity-icon {
+    @apply w-10 h-10 flex items-center justify-center text-base rounded-full;
+  }
+
+  .activity-item {
+    @apply py-2 border-b border-gray-100 last:border-b-0;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar {
+    /* Chrome, Safari and Opera */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

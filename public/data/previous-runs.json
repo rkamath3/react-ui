@@ -1,0 +1,103 @@
+{
+  "columns": [
+    { "key": "id", "title": "Run ID", "sortable": true },
+    { "key": "timestamp", "title": "Timestamp", "sortable": true },
+    { "key": "recipe", "title": "Recipe", "sortable": true },
+    { "key": "duration", "title": "Duration (min)", "sortable": true },
+    { "key": "status", "title": "Status", "sortable": true },
+    { "key": "temperature", "title": "Avg Temperature (°C)", "sortable": true },
+    { "key": "pressure", "title": "Avg Pressure (bar)", "sortable": true },
+    { "key": "yield", "title": "Yield (%)", "sortable": true },
+    { "key": "ET", "title": "Error Threshold", "sortable": true }
+  ],
+  "data": [
+    {
+      "id": "RUN-001",
+      "timestamp": "2025-09-29 08:30:15",
+      "recipe": "R1",
+      "duration": 45,
+      "status": "Completed",
+      "temperature": 85.2,
+      "pressure": 2.1,
+      "yield": 94.5,
+      "ET": false
+    },
+    {
+      "id": "RUN-002",
+      "timestamp": "2025-09-29 09:15:22",
+      "recipe": "R3",
+      "duration": 52,
+      "status": "Completed",
+      "temperature": 87.8,
+      "pressure": 2.3,
+      "yield": 91.2,
+      "ET": true
+    },
+    {
+      "id": "RUN-003",
+      "timestamp": "2025-09-29 10:45:33",
+      "recipe": "R7",
+      "duration": 38,
+      "status": "Completed",
+      "temperature": 83.1,
+      "pressure": 1.9,
+      "yield": 96.8,
+      "ET": false
+    },
+    {
+      "id": "RUN-004",
+      "timestamp": "2025-09-29 11:20:44",
+      "recipe": "R12",
+      "duration": 41,
+      "status": "Failed",
+      "temperature": 92.5,
+      "pressure": 2.8,
+      "yield": 78.3,
+      "ET": true
+    },
+    {
+      "id": "RUN-005",
+      "timestamp": "2025-09-29 12:05:55",
+      "recipe": "R5",
+      "duration": 47,
+      "status": "Completed",
+      "temperature": 84.7,
+      "pressure": 2.0,
+      "yield": 93.1,
+      "ET": false
+    },
+    {
+      "id": "RUN-006",
+      "timestamp": "2025-09-29 13:30:11",
+      "recipe": "R8",
+      "duration": 55,
+      "status": "Completed",
+      "temperature": 86.4,
+      "pressure": 2.2,
+      "yield": 89.7,
+      "ET": false
+    },
+    {
+      "id": "RUN-007",
+      "timestamp": "2025-09-29 14:15:27",
+      "recipe": "R15",
+      "duration": 43,
+      "status": "Warning",
+      "temperature": 88.9,
+      "pressure": 2.5,
+      "yield": 87.4,
+      "ET": true
+    },
+    {
+      "id": "RUN-008",
+      "timestamp": "2025-09-29 15:00:38",
+      "recipe": "R2",
+      "duration": 39,
+      "status": "Completed",
+      "temperature": 82.6,
+      "pressure": 1.8,
+      "yield": 97.2,
+      "ET": false
+    }
+  ]
+}

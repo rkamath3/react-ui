@@ -1,0 +1,149 @@
+{
+  "recipes": [
+    "R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8", "R9", "R10",
+    "R11", "R12", "R13", "R14", "R15", "R16", "R17", "R18", "R19", "R20",
+    "R21", "R22", "R23", "R24", "R25", "R26", "R27", "R28", "R29", "R30",
+    "R31", "R32", "R33", "R34", "R35", "R36", "R37", "R38", "R39", "R40",
+    "R41", "R42", "R43", "R44", "R45", "R46", "R47", "R48", "R49", "R50",
+    "R51", "R52", "R53", "R54", "R55", "R56", "R57", "R58", "R59", "R60",
+    "R61", "R62", "R63", "R64", "R65", "R66", "R67", "R68", "R69", "R70",
+    "R71", "R72", "R73", "R74", "R75", "R76", "R77", "R78", "R79", "R80",
+    "R81", "R82", "R83", "R84", "R85", "R86", "R87", "R88", "R89", "R90",
+    "R91", "R92", "R93", "R94", "R95", "R96", "R97", "R98", "R99", "R100"
+  ],
+  "metadata": {
+    "R1": {
+      "pressure": {
+        "timeseries": [2.1, 2.2, 2.0, 2.3, 2.1, 2.4, 2.2, 2.0, 2.1, 2.3]
+      },
+      "temperature": {
+        "timeseries": [85.2, 86.1, 84.8, 87.3, 85.9, 88.1, 86.4, 84.2, 85.7, 87.0]
+      },
+      "flow_rate": {
+        "timeseries": [15.2, 15.8, 14.9, 16.1, 15.4, 16.3, 15.7, 14.8, 15.3, 16.0]
+      },
+      "ph_level": {
+        "timeseries": [7.2, 7.1, 7.3, 7.0, 7.2, 6.9, 7.1, 7.4, 7.2, 7.0]
+      },
+      "optimized_value": {
+        "timeseries": [92.1, 93.2, 91.8, 94.1, 92.7, 94.8, 93.3, 91.5, 92.4, 93.9]
+      },
+      "optimization_contribution": {
+        "pressure": 28.5,
+        "temperature": 35.2,
+        "flow_rate": 22.8,
+        "ph_level": 13.5
+      }
+    },
+    "R2": {
+      "pressure": {
+        "timeseries": [2.0, 2.1, 1.9, 2.2, 2.0, 2.3, 2.1, 1.9, 2.0, 2.2]
+      },
+      "temperature": {
+        "timeseries": [84.5, 85.4, 83.8, 86.1, 84.9, 86.7, 85.2, 83.6, 84.7, 85.8]
+      },
+      "flow_rate": {
+        "timeseries": [14.9, 15.5, 14.4, 15.8, 15.1, 16.0, 15.4, 14.3, 15.0, 15.7]
+      },
+      "ph_level": {
+        "timeseries": [7.1, 7.0, 7.2, 6.9, 7.1, 6.8, 7.0, 7.3, 7.1, 6.9]
+      },
+      "optimized_value": {
+        "timeseries": [93.8, 94.7, 93.4, 95.2, 94.1, 95.6, 94.4, 93.1, 93.9, 95.0]
+      },
+      "optimization_contribution": {
+        "pressure": 22.1,
+        "temperature": 41.3,
+        "flow_rate": 26.7,
+        "ph_level": 9.9
+      }
+    },
+    "R3": {
+      "pressure": {
+        "timeseries": [2.3, 2.4, 2.2, 2.5, 2.3, 2.6, 2.4, 2.2, 2.3, 2.5]
+      },
+      "temperature": {
+        "timeseries": [87.8, 88.7, 87.1, 89.4, 88.2, 90.0, 88.5, 86.9, 88.0, 89.1]
+      },
+      "flow_rate": {
+        "timeseries": [16.1, 16.7, 15.8, 17.0, 16.3, 17.2, 16.6, 15.7, 16.2, 16.9]
+      },
+      "ph_level": {
+        "timeseries": [6.8, 6.7, 6.9, 6.6, 6.8, 6.5, 6.7, 7.0, 6.8, 6.6]
+      },
+      "optimized_value": {
+        "timeseries": [89.3, 90.4, 88.9, 91.2, 89.8, 91.7, 90.1, 88.6, 89.5, 90.8]
+      },
+      "optimization_contribution": {
+        "pressure": 31.7,
+        "temperature": 29.4,
+        "flow_rate": 24.6,
+        "ph_level": 14.3
+      }
+    },
+    "R7": {
+      "pressure": {
+        "timeseries": [1.9, 2.0, 1.8, 2.1, 1.9, 2.2, 2.0, 1.8, 1.9, 2.1]
+      },
+      "temperature": {
+        "timeseries": [83.1, 84.0, 82.4, 84.8, 83.5, 85.2, 83.9, 82.2, 83.4, 84.5]
+      },
+      "flow_rate": {
+        "timeseries": [14.3, 14.9, 13.8, 15.2, 14.5, 15.4, 14.8, 13.7, 14.4, 15.1]
+      },
+      "ph_level": {
+        "timeseries": [7.5, 7.4, 7.6, 7.3, 7.5, 7.2, 7.4, 7.7, 7.5, 7.3]
+      },
+      "optimized_value": {
+        "timeseries": [95.2, 96.1, 94.8, 96.7, 95.5, 97.1, 95.9, 94.5, 95.3, 96.4]
+      }
+    },
+    "R12": {
+      "pressure": {
+        "timeseries": [2.8, 2.9, 2.7, 3.0, 2.8, 3.1, 2.9, 2.7, 2.8, 3.0]
+      },
+      "temperature": {
+        "timeseries": [92.5, 93.4, 91.8, 94.2, 92.9, 94.8, 93.2, 91.6, 92.7, 93.9]
+      },
+      "flow_rate": {
+        "timeseries": [17.8, 18.4, 17.3, 18.7, 18.0, 19.0, 18.3, 17.2, 17.9, 18.6]
+      },
+      "ph_level": {
+        "timeseries": [6.2, 6.1, 6.3, 6.0, 6.2, 5.9, 6.1, 6.4, 6.2, 6.0]
+      },
+      "optimized_value": {
+        "timeseries": [78.3, 79.1, 77.8, 79.8, 78.6, 80.2, 78.9, 77.5, 78.4, 79.5]
+      }
+    },
+    "R5": {
+      "pressure": {
+        "timeseries": [2.0, 2.1, 1.9, 2.2, 2.0, 2.3, 2.1, 1.9, 2.0, 2.2]
+      },
+      "temperature": {
+        "timeseries": [84.7, 85.6, 84.0, 86.3, 85.1, 86.9, 85.4, 83.8, 84.9, 86.0]
+      },
+      "flow_rate": {
+        "timeseries": [14.8, 15.4, 14.3, 15.7, 15.0, 15.9, 15.3, 14.2, 14.9, 15.6]
+      },
+      "ph_level": {
+        "timeseries": [7.3, 7.2, 7.4, 7.1, 7.3, 7.0, 7.2, 7.5, 7.3, 7.1]
+      },
+      "optimized_value": {
+        "timeseries": [93.1, 94.0, 92.7, 94.6, 93.4, 95.0, 93.7, 92.4, 93.2, 94.3]
+      }
+    }
+  },
+  "analysis": {
+    "R1_vs_R2": "Both R1 and R2 demonstrate very similar processing profiles with comparable temperature and pressure ranges. R2 shows slightly higher optimized values (94.5 avg vs 92.9 avg), indicating marginally better efficiency. Both recipes maintain excellent pH stability around 7.0-7.1, making them ideal for consistent production runs. The minimal differences suggest these recipes could be used interchangeably with R2 having a slight performance edge.",
+    "R1_vs_R3": "Comparison analysis shows that R3 operates at higher temperature and pressure ranges compared to R1. R3 demonstrates more aggressive processing parameters with temperature averaging 88.5°C vs R1's 86.2°C. However, R1 shows better pH stability and higher optimized values, suggesting more efficient processing despite lower operational parameters.",
+    "R1_vs_R7": "R7 operates at significantly lower pressure and temperature compared to R1, indicating a more conservative approach. R7 shows excellent pH stability (7.4 average) and the highest optimized values (95.8 average), making it the most efficient recipe in terms of output quality.",
+    "R3_vs_R7": "Stark contrast between aggressive (R3) and conservative (R7) processing approaches. R7's lower operational parameters result in superior optimized values and better process stability, while R3's higher parameters show more variability in output quality.",
+    "R1_vs_R12": "R12 represents an over-aggressive approach with excessive temperature (92.9°C avg) and pressure (2.9 bar avg). This results in poor pH control and significantly lower optimized values (78.9 avg), indicating process inefficiency and potential quality issues.",
+    "R3_vs_R12": "Both recipes use aggressive parameters, but R12 pushes beyond optimal thresholds. R12's extreme conditions result in 12% lower optimized values compared to R3, demonstrating diminishing returns from excessive processing intensity.",
+    "R7_vs_R12": "Complete opposite processing philosophies. R7's conservative approach yields 21% higher optimized values than R12's aggressive method, clearly demonstrating that optimal processing occurs within moderate parameter ranges.",
+    "R1_vs_R5": "Very similar processing profiles with R5 showing slightly more conservative temperature control. Both recipes demonstrate good stability and high optimized values, with R5 achieving marginally better results through tighter parameter control.",
+    "R3_vs_R5": "R5 operates at more moderate conditions compared to R3's aggressive approach. R5's conservative temperature management results in 4% higher optimized values and better process consistency.",
+    "R5_vs_R7": "Both represent well-optimized conservative approaches. R7 shows superior performance with 3% higher optimized values, likely due to its even more controlled pressure management and excellent pH stability.",
+    "R5_vs_R12": "Clear demonstration of optimal vs sub-optimal processing. R5's moderate approach achieves 18% higher optimized values than R12's excessive parameters, reinforcing the importance of balanced process control."
+  }
+}
